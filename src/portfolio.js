@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Yueqi Liao",
+  title: "Hi all, I'm Yueqi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A graduate student studying computer science at Carnegie Mellon University, a tech enthusiast 🚀 having experience with Full-Stack/Backend Development, computer systems, and firmware engineering. I love technologies and am proficient in Python, JavaScript, Node.js, React, Golang, C/C++, and some other cool languages, libraries, and frameworks. 😎"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ikemenyuki",
+  linkedin: "https://www.linkedin.com/in/yueqi-liao/",
+  gmail: "yueqil2@andrew.cmu.edu",
+  instagram: "https://www.instagram.com/n1co1iao/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY BACKEND & SYSTEM ENGINEER WHO LIKES EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly scalable & robust backend for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ System / firmware development for embedded systems and hardware"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase / AWS / GCP / Azure"
+    ),
+    emoji(
+      "⚡ Highly interactive frontend development with React / React Native / Flutter"
     )
   ],
 
@@ -65,16 +65,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -115,6 +115,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +130,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Carnegie Mellon University",
+      logo: require("./assets/images/cmuLogo.png"),
+      subHeader: "Master of Science in Information Networking",
+      duration: "August 2022 - May 2024",
+      desc: "Participated in the research of user-level thread packages development.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Took courses about Distributed Systems, Storage Systems, Cloud Computing, and Computer Networks...",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "University of California, San Diego",
+      logo: require("./assets/images/ucsdLogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2018 - March 2022",
+      desc: "Ranked top 15% in the program. GPA: 3.85/4.0, graduated with Cum Laude Latin Honor.",
+      descBullets: [
+        "Took courses about Software Engineering, Computer Systems, Operating Systems, and Database Systems..."
+      ]
     }
   ]
 };
@@ -153,17 +158,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Backend", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Algorithm",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "System/Firmware",
+      progressPercentage: "80%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,29 +179,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Full Stack Software Engineer Intern",
+      company: "Orbbec 3D",
+      companylogo: require("./assets/images/orbbecLogo.jpeg"),
+      date: "May 2023 – August 2023",
+      desc: "I had a blast crafting a user-centric React.js app and dabbling in data pagination. I took a dive into the world of AWS EKS, orchestrating neat microservices using Kubernetes. I merged the magic of Langchain Embeddings and Faiss with OpenAI APIs and watched our app chat smarter! Oh, and I streamlined our code delivery using GitHub Actions, making our hefty 3K+ codebase feel like a breeze!",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Software Engineer Intern",
+      company: "Orka",
+      companylogo: require("./assets/images/orkaLogo.jpeg"),
+      date: "Nov 2020 – Apr 2021",
+      desc: "I dove deep into React.js, designing bits and pieces that users truly loved, bumping our engagement metrics by 25%! I played around with Node.js and Express.js, and guess what? Our server started responding 30% faster. I also had a chance to beef up our security with Google Firebase and gave our PostgreSQL database a little tweak for quicker data magic!",
+    },
+    {
+      role: "Cloud Software Engineer Intern",
+      company: "AsiaInfo",
+      companylogo: require("./assets/images/asiainfoLogo.webp"),
+      date: "Sep 2020 – Nov 2020",
+      desc: "I cooked up a snazzy decision-tree system on AWS Lambda that could effortlessly juggle 10,000+ requests a minute. I took AWS Elastic Load Balancing for a spin and saw our response times drop by a cool 25%. I kept our data safe and consistent with AWS S3 and DynamoDB, and had almost zero downtime, thanks to our nifty automatic replication!",
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Huawei",
+      companylogo: require("./assets/images/huaweiLogo.png"),
+      date: "Jul 2019 – Sep 2019",
+      desc: "I jumped into the testing world with Postman, and voila, our cloud services were 18% more reliable. I made friends with JIRA and noticed our teams chatting and resolving stuff faster. I also had a fun ride automating web tests on Huawei's cloud interface with Selenium, making things look spick and span!",
     }
   ]
 };
@@ -206,35 +214,80 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal & Academic Projects",
+  subtitle: "SOME OF MY PERSONAL AND ACADEMIC PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/kryptozninjaLogo.png"),
+      projectName: "Kryptozninja",
+      projectDesc: "It's a small but fun NFT trading platform! You can trade any NFTs you like or create & sell your own NFTs with Ethereum! All transactions are secured on the Blockchain.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://kryptozninja.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/hdmlLogo.png"),
+      projectName: "HDML Enigma",
+      projectDesc: "In this project, I embarked on a thrilling quest to unravel this mystery, focusing on the lexing and parsing stages of the HDML compiler!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Read Blog",
+          url: "https://medium.com/@yueqiliao084/decoding-the-hdml-enigma-a-flex-bison-odyssey-2610c75d9c25"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cloudfsLogo.png"),
+      projectName: "Cloud File System",
+      projectDesc: "In this project, I built a distributed file system that stores small files on local SSD device and large files on the cloud!",
+      footerLink: [
+        {
+          name: "Read Blog",
+          url: "https://medium.com/@yueqiliao084/cloudfs-how-i-battled-bytes-ssds-and-the-mighty-cloud-83d2609c98ab"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/myftlLogo.png"),
+      projectName: "SSD File Translation Layer",
+      projectDesc: "I took a light-hearted deep dive into SSDs and Flash Translation Layers and uncovered the fun behind data storage!",
+      footerLink: [
+        {
+          name: "Read Blog",
+          url: "https://medium.com/@yueqiliao084/the-myftl-odyssey-navigating-the-flashy-labyrinths-of-solid-state-drives-8600b5f924ff"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/mapreduceLogo.png"),
+      projectName: "Big Data Analyzer on Cloud",
+      projectDesc: "In this project, I created a big data analyzer with Hadoop MapReduce, orchestrated with Kubernetes and deployed it on GCP!",
+      footerLink: [
+        {
+          name: "Read Blog",
+          url: "https://medium.com/@yueqiliao084/navigating-the-depths-of-data-crafting-a-large-scale-search-engine-with-kubernetes-hadoop-b13e644b9216"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/raftLogo.png"),
+      projectName: "Distributed Pub/Sub Store",
+      projectDesc: "Say no to the tyranny of the majority! In this project, I built a distributed Pub/Sub store with Raft and RPC!",
+      footerLink: [
+        {
+          name: "Read Blog",
+          url: "https://medium.com/@yueqiliao084/orchestrating-harmony-in-chaos-designing-a-pub-sub-distributed-system-with-raft-6323d21e0a21"
         }
       ]
     }
@@ -246,15 +299,15 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("MODELING CAREER 🧑🏻‍🦱 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "I also do modeling for my photographer friends for fun!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -292,7 +345,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -300,7 +353,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +377,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +396,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +409,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or have a job opening? I am actively seeking a new grad software engineer role and feel free to contact me!",
+  number: "+1 (858) 900-4075",
+  email_address: "yueqil2@andrew.cmu.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
