@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.32fc3c62.css",
+    "main.js": "/home/static/js/main.2910a849.js",
+    "static/css/64.bba8fa55.chunk.css": "/home/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.d5c994f3.chunk.js": "/home/static/js/64.d5c994f3.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/home/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.52cb9ddf.chunk.js": "/home/static/js/769.52cb9ddf.chunk.js",
+    "static/media/kryptozninjaLogo.png": "/home/static/media/kryptozninjaLogo.c218213d4d3896ac66a8.png",
+    "static/media/hdmlLogo.png": "/home/static/media/hdmlLogo.a6ead8a963d2c2c227c0.png",
+    "static/media/cloudfsLogo.png": "/home/static/media/cloudfsLogo.dea5ec60c4ed296c199c.png",
+    "static/media/mapreduceLogo.png": "/home/static/media/mapreduceLogo.62bdd6314abaa2a6eabf.png",
+    "static/media/myftlLogo.png": "/home/static/media/myftlLogo.c14e61b4cfd2c8ec65af.png",
+    "static/media/raftLogo.png": "/home/static/media/raftLogo.fa22082ed4c1c3f703aa.png",
+    "static/media/Montserrat-Regular.ttf": "/home/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/ucsdLogo.jpeg": "/home/static/media/ucsdLogo.2fa842fa7f27614df934.jpeg",
+    "static/media/Agustina.woff": "/home/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/huaweiLogo.png": "/home/static/media/huaweiLogo.239d2807a6dfcb71de15.png",
+    "static/media/manOnTable.svg": "/home/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/home/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/home/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/googleAssistantLogo.webp": "/home/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/orbbecLogo.jpeg": "/home/static/media/orbbecLogo.43d4e8bcc507688bab6c.jpeg",
+    "static/media/cmuLogo.png": "/home/static/media/cmuLogo.028c81e7f053e60aa3dc.png",
+    "static/media/codeInLogo.webp": "/home/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
+    "static/media/skill.svg": "/home/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/pwaLogo.webp": "/home/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "index.html": "/home/index.html",
+    "static/media/asiainfoLogo.webp": "/home/static/media/asiainfoLogo.b5f5f1dd74b1c1e0afdf.webp",
+    "static/media/talksCardBack.svg": "/home/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.32fc3c62.css.map": "/home/static/css/main.32fc3c62.css.map",
+    "main.2910a849.js.map": "/home/static/js/main.2910a849.js.map",
+    "64.bba8fa55.chunk.css.map": "/home/static/css/64.bba8fa55.chunk.css.map",
+    "64.d5c994f3.chunk.js.map": "/home/static/js/64.d5c994f3.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/home/static/css/769.b3cbb36b.chunk.css.map",
+    "769.52cb9ddf.chunk.js.map": "/home/static/js/769.52cb9ddf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32fc3c62.css",
+    "static/js/main.2910a849.js"
+  ]
+}
